@@ -90,8 +90,30 @@ body {
    }
 }
 
+@media screen and (min-width: 1001px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: center;
+       }
+    
+    #container {
+        flex-direction: row;
+    }
 
+    main {
+        flex: 2;
+    }
 
+    aside {
+        flex: 1;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
 
 
 
