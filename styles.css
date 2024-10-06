@@ -1,3 +1,26 @@
 .header-container {
     background-color: #120323;
 }
+
+h2 {
+    color: #120323;
+}
+
+aside {
+    background-color: #97bf04;
+}
+
+footer {
+    background-color: #d9043d;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 5px solid red;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
