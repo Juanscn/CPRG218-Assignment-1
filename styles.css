@@ -102,10 +102,12 @@ body {
 
     main {
         flex: 2;
+        min-width: 60%;
     }
 
     aside {
         flex: 1;
+        min-width: 30%;
     }
 
     figure {
