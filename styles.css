@@ -22,6 +22,7 @@ h2 {
 
 aside {
     background-color: #97bf04;
+    width: 100%;
 }
 
 footer {
@@ -45,37 +46,34 @@ body {
     font-family: 'Helvetica', sans-serif;
 }
 
-@media screen and (max-width: 1000px) {
-    figure img {
-        max-width: 300px;
-        max-height: 300px;
-        width: auto;
-        height: auto;
-        object-fit: contain;
-    }
-
-    figure {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        text-align: center;
-    }
+   .header-container {
+    flex-direction: column;
+    text-align: center;
+   }
 
-    #container {
-        flex-direction: column;
-        align-items: center;
-    }
+   #container {
+    flex-direction: column;
+    align-items: center;
+   }
 
-    figure img {
-        width: 100%;
-        height: auto;
-    }
+   figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   figure img {
+    width: 100%;
+    height: auto;
+   }
 }
+
+
+
+
+
+
 
 
     
