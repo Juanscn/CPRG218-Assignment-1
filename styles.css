@@ -69,6 +69,26 @@ body {
    }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+   .header-container {
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   figure {
+    display: flex;
+    flex-direction: row;
+   }
+
+   figure img {
+    max-width: 300px;
+    max-height: 300px;
+   }
+
+   aside {
+    max-width: 100%;
+   }
+}
 
 
 
